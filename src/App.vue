@@ -8,7 +8,7 @@
       icon="mdi-theme-light-dark"
       location="top right"
       position="absolute"
-      @click="$vuetify.theme.cycle()"
+      @click="$vuetify.theme.toggle()"
     />
   </v-app>
 </template>
